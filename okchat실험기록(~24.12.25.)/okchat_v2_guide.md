@@ -38,11 +38,11 @@ okchat은 대규모 언어 모델(LLM)과 사용자의 데이터를 사용하여
 - "새 챗봇 만들기"를 클릭하세요.
 - 이름 지정 지침에 주의하며 챗봇 생성 양식을 작성하세요.
 
-<img src= "">
+<img src= "https://github.com/HansungJang/Okchat_v2_guide_docs/blob/main/okchat%EC%8B%A4%ED%97%98%EA%B8%B0%EB%A1%9D(~24.12.25.)/1.%20%EC%B1%97%EB%B4%87%20%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0/1.1%20create%20new.png">
 
 **기존 챗봇 수정하기**
 
-<img src= "">
+<img src= "https://github.com/HansungJang/Okchat_v2_guide_docs/blob/main/okchat%EC%8B%A4%ED%97%98%EA%B8%B0%EB%A1%9D(~24.12.25.)/1.%20%EC%B1%97%EB%B4%87%20%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0/select%20existing.png">
 
 ## 📚 챗봇 학습하기
 
@@ -63,7 +63,7 @@ okchat은 대규모 언어 모델(LLM)과 사용자의 데이터를 사용하여
 
   - 웹사이트 크기에 따른 시간과 크레딧 소비에 주의하세요.
 
-<img src= "">
+<img src= "https://github.com/HansungJang/Okchat_v2_guide_docs/blob/main/okchat%EC%8B%A4%ED%97%98%EA%B8%B0%EB%A1%9D(~24.12.25.)/2.%20%EC%B1%97%EB%B4%87%20%ED%95%99%EC%8A%B5%ED%95%98%EA%B8%B0/2.1.%20url%20crawler.png">
 
 - **텍스트 입력**: 수동으로 생성한 텍스트 항목으로 챗봇을 학습시킵니다.
 
@@ -71,7 +71,7 @@ okchat은 대규모 언어 모델(LLM)과 사용자의 데이터를 사용하여
 
   - 직접 제목과 내용을 입력하여 챗봇에게 새로운 지식을 추가할 수 있습니다. 간단한 정보나 FAQ를 추가하기에 적합합니다.
 
-<img src= "">
+<img src= "https://github.com/HansungJang/Okchat_v2_guide_docs/blob/main/okchat%EC%8B%A4%ED%97%98%EA%B8%B0%EB%A1%9D(~24.12.25.)/2.%20%EC%B1%97%EB%B4%87%20%ED%95%99%EC%8A%B5%ED%95%98%EA%B8%B0/2.2.%20text%20%ED%95%99%EC%8A%B5.png">
 
 - **PDF 및 Markdown 파일**: PDF 및 Markdown 파일을 업로드하여 챗봇을 학습시킵니다.
 
@@ -81,7 +81,7 @@ okchat은 대규모 언어 모델(LLM)과 사용자의 데이터를 사용하여
 
   - PDF 파일이나 Markdown 파일을 업로드하여 챗봇이 문서의 내용을 학습하도록 할 수 있습니다. 대용량의 문서나 기술 문서를 쉽게 추가할 수 있습니다.
 
-<img src= "">
+<img src= "https://github.com/HansungJang/Okchat_v2_guide_docs/blob/main/okchat%EC%8B%A4%ED%97%98%EA%B8%B0%EB%A1%9D(~24.12.25.)/2.%20%EC%B1%97%EB%B4%87%20%ED%95%99%EC%8A%B5%ED%95%98%EA%B8%B0/2.3.%20PDF%20%26%20FILE%20%ED%95%99%EC%8A%B5.png">
 
 > 주의사항
 >
@@ -108,7 +108,7 @@ okchat은 대규모 언어 모델(LLM)과 사용자의 데이터를 사용하여
      - Base URL: API의 기본 URL을 입력합니다.
      - Active: API의 활성화 상태를 설정합니다.
 
-  <img src="">
+  <img src="https://github.com/HansungJang/Okchat_v2_guide_docs/blob/main/okchat%EC%8B%A4%ED%97%98%EA%B8%B0%EB%A1%9D(~24.12.25.)/3.%20%EC%B1%97%EB%B4%87%20API%20%ED%99%9C%EC%9A%A9/API%2C%20%EC%8B%9C%EC%9E%91%EC%A3%BC%EC%86%8C%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0.png">
 
 - 3. 엔드포인터 설정
      설명: API의 각 기능에 대한 엔드포인트를 설정합니다. 요청 방식, 경로, 파라미터 등을 정의할 수 있습니다.
@@ -119,7 +119,7 @@ okchat은 대규모 언어 모델(LLM)과 사용자의 데이터를 사용하여
      - Query Parameters: URL 쿼리 파라미터를 설정합니다.
      - Path Parameters: URL 경로 파라미터를 설정합니다.
 
-  <img src ="">
+  <img src ="https://github.com/HansungJang/Okchat_v2_guide_docs/blob/main/okchat%EC%8B%A4%ED%97%98%EA%B8%B0%EB%A1%9D(~24.12.25.)/3.%20%EC%B1%97%EB%B4%87%20API%20%ED%99%9C%EC%9A%A9/API%2C%20%EC%9A%94%EC%B2%AD%ED%98%95%EC%8B%9D%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0.png">
 
 - 4. API 통합관리
      설명: 설정이 완료된 API는 통합 도구 목록에서 확인하고 관리할 수 있습니다.
@@ -128,7 +128,7 @@ okchat은 대규모 언어 모델(LLM)과 사용자의 데이터를 사용하여
      - Delete: API 통합을 삭제합니다
      - Active 상태 확인: API의 활성화 상태를 표시합니다
 
-  <img src ="">
+  <img src ="https://github.com/HansungJang/Okchat_v2_guide_docs/blob/main/okchat%EC%8B%A4%ED%97%98%EA%B8%B0%EB%A1%9D(~24.12.25.)/3.%20%EC%B1%97%EB%B4%87%20API%20%ED%99%9C%EC%9A%A9/API%2C%20%ED%95%99%EC%8A%B5%EB%90%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%99%95%EC%9D%B8.png">
 
 > 주의사항
 >
@@ -370,7 +370,11 @@ okchat은 대규모 언어 모델(LLM)과 사용자의 데이터를 사용하여
 > - Instargram
 > - WhatsApp
 
-<img src="">
+[외부 소셜 미디어 연결 홈 화면]
+<img src="https://github.com/HansungJang/Okchat_v2_guide_docs/blob/main/okchat%EC%8B%A4%ED%97%98%EA%B8%B0%EB%A1%9D(~24.12.25.)/4.%20%EC%B1%97%EB%B4%87%20%EC%86%8C%EC%85%9C%EB%AF%B8%EB%94%94%EC%96%B4%20%EC%97%B0%EA%B2%B0/4.1.%20%EC%86%8C%EC%85%9C%EB%AF%B8%EB%94%94%EC%96%B4%20%EC%97%B0%EA%B2%B0%20%ED%99%88%ED%99%94%EB%A9%B4.png">
+
+[외부 소셜 미디어 연ㄹ결 확인 방법]
+<img src="https://github.com/HansungJang/Okchat_v2_guide_docs/blob/main/okchat%EC%8B%A4%ED%97%98%EA%B8%B0%EB%A1%9D(~24.12.25.)/4.%20%EC%B1%97%EB%B4%87%20%EC%86%8C%EC%85%9C%EB%AF%B8%EB%94%94%EC%96%B4%20%EC%97%B0%EA%B2%B0/4.2.%20%EC%86%8C%EC%85%9C%20%EB%AF%B8%EB%94%94%EC%96%B4%20%EC%97%B0%EA%B2%B0%20%ED%99%9C%EC%9A%A9%EB%B0%A9%EB%B2%95.png">
 
 ## 📊 모니터링 및 관리
 
