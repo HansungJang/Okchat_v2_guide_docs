@@ -1,447 +1,447 @@
-# okchat ver 2.0 »ç¿ëÀÚ °¡ÀÌµå
+# okchat ver 2.0 ì‚¬ìš©ìž ê°€ì´ë“œ
 
-## ? okchat¿¡ ¿À½Å °ÍÀ» È¯¿µÇÕ´Ï´Ù! ?
+## ðŸ¤– okchatì— ì˜¤ì‹  ê²ƒì„ í™˜ì˜í•©ë‹ˆë‹¤! ðŸ“–
 
-ÀÌ °¡ÀÌµå´Â okchat v2¸¦ »ç¿ëÇÏ¿© ÀÚ½Å¸¸ÀÇ AI Ãªº¿À» ¸¸µé°í °ü¸®ÇÏ´Â µ¥ µµ¿òÀ» ÁÙ °ÍÀÔ´Ï´Ù.
+ì´ ê°€ì´ë“œëŠ” okchat v2ë¥¼ ì‚¬ìš©í•˜ì—¬ ìžì‹ ë§Œì˜ AI ì±—ë´‡ì„ ë§Œë“¤ê³  ê´€ë¦¬í•˜ëŠ” ë° ë„ì›€ì„ ì¤„ ê²ƒìž…ë‹ˆë‹¤.
 
-## ? okchat ÀÌÇØÇÏ±â
+## ðŸ’¡ okchat ì´í•´í•˜ê¸°
 
-### okchatÀÌ¶õ?
+### okchatì´ëž€?
 
-okchatÀº ´ë±Ô¸ð ¾ð¾î ¸ðµ¨(LLM)°ú »ç¿ëÀÚÀÇ µ¥ÀÌÅÍ¸¦ »ç¿ëÇÏ¿© AI ±â¹Ý Ãªº¿À» ½±°Ô ¸¸µé°í ¹èÆ÷ÇÒ ¼ö ÀÖ´Â ÇÃ·§ÆûÀÔ´Ï´Ù.
+okchatì€ ëŒ€ê·œëª¨ ì–¸ì–´ ëª¨ë¸(LLM)ê³¼ ì‚¬ìš©ìžì˜ ë°ì´í„°ë¥¼ ì‚¬ìš©í•˜ì—¬ AI ê¸°ë°˜ ì±—ë´‡ì„ ì‰½ê²Œ ë§Œë“¤ê³  ë°°í¬í•  ìˆ˜ ìžˆëŠ” í”Œëž«í¼ìž…ë‹ˆë‹¤.
 
-### okchatÀÇ ÀåÁ¡
+### okchatì˜ ìž¥ì 
 
-- °í°´¿¡°Ô ÀÎ°£°ú À¯»çÇÑ ´ëÈ­ °æÇè Á¦°ø.
-- ´ëÈ­ ¸Æ¶ô°ú »ç¿ëÀÚ ÀÇµµ¸¦ ÀÌÇØÇÏ¿© ÃÖÀûÀÇ ÀÀ´ä Á¦°ø.
-- 24/7 ´Ù±¹¾î °í°´ Áö¿ø Á¦°ø.
-- ¸ÅÃâ ¹× °í°´ ¸¸Á·µµ Çâ»ó.
+- ê³ ê°ì—ê²Œ ì¸ê°„ê³¼ ìœ ì‚¬í•œ ëŒ€í™” ê²½í—˜ ì œê³µ.
+- ëŒ€í™” ë§¥ë½ê³¼ ì‚¬ìš©ìž ì˜ë„ë¥¼ ì´í•´í•˜ì—¬ ìµœì ì˜ ì‘ë‹µ ì œê³µ.
+- 24/7 ë‹¤êµ­ì–´ ê³ ê° ì§€ì› ì œê³µ.
+- ë§¤ì¶œ ë° ê³ ê° ë§Œì¡±ë„ í–¥ìƒ.
 
-### ÁÖ¿ä ±â´É
+### ì£¼ìš” ê¸°ëŠ¥
 
-- **»ç¿ëÇÏ±â ½¬¿ò**: ÃÊº¸ÀÚµµ ÀÚ½Å¸¸ÀÇ AI Ãªº¿À» ¸¸µé ¼ö ÀÖ½À´Ï´Ù.
-- **¸ÂÃã ¼³Á¤ °¡´É**: ÀÚ½ÅÀÇ µ¥ÀÌÅÍ¿Í ´ë±Ô¸ð ¾ð¾î ¸ðµ¨À» »ç¿ëÇÏ¿© °íÀ¯ÇÑ Ãªº¿À» ±¸ÃàÇÒ ¼ö ÀÖ½À´Ï´Ù.
-- **¹«·á·Î ½ÃÀÛ**: okchatÀº Å×½ºÆ®¿¡ ÃæºÐÇÑ »ç¿ë·®À» Á¦°øÇÏ´Â ¹«·á ÇÃ·£À» Á¦°øÇÕ´Ï´Ù.
-- **¿ÜºÎ ÅëÇÕ**: KakaoTalk, Naver TalkTalk, LINE, Facebook Messenger, WhatsApp, Instagram µî ÀÎ±â ÀÖ´Â ¸Þ½ÃÂ¡ ÇÃ·§Æû°ú ¿¬°áÇÒ ¼ö ÀÖ½À´Ï´Ù.
+- **ì‚¬ìš©í•˜ê¸° ì‰¬ì›€**: ì´ˆë³´ìžë„ ìžì‹ ë§Œì˜ AI ì±—ë´‡ì„ ë§Œë“¤ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+- **ë§žì¶¤ ì„¤ì • ê°€ëŠ¥**: ìžì‹ ì˜ ë°ì´í„°ì™€ ëŒ€ê·œëª¨ ì–¸ì–´ ëª¨ë¸ì„ ì‚¬ìš©í•˜ì—¬ ê³ ìœ í•œ ì±—ë´‡ì„ êµ¬ì¶•í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+- **ë¬´ë£Œë¡œ ì‹œìž‘**: okchatì€ í…ŒìŠ¤íŠ¸ì— ì¶©ë¶„í•œ ì‚¬ìš©ëŸ‰ì„ ì œê³µí•˜ëŠ” ë¬´ë£Œ í”Œëžœì„ ì œê³µí•©ë‹ˆë‹¤.
+- **ì™¸ë¶€ í†µí•©**: KakaoTalk, Naver TalkTalk, LINE, Facebook Messenger, WhatsApp, Instagram ë“± ì¸ê¸° ìžˆëŠ” ë©”ì‹œì§• í”Œëž«í¼ê³¼ ì—°ê²°í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 
-## ?? ½ÃÀÛÇÏ±â
+## ðŸ—ï¸ ì‹œìž‘í•˜ê¸°
 
-### °èÁ¤ »ý¼º
+### ê³„ì • ìƒì„±
 
-- okchat v2 °èÁ¤¿¡ °¡ÀÔÇÏ¼¼¿ä.
-- Ãªº¿ »ý¼º ¾ç½Ä ¿ä±¸ »çÇ×À» ÀÌÇØÇÏ¼¼¿ä (URLÀº ¼Ò¹®ÀÚ, ÇÏÀÌÇÂ, ¼ýÀÚ¸¸ Æ÷ÇÔÇØ¾ß ÇÕ´Ï´Ù).
+- okchat v2 ê³„ì •ì— ê°€ìž…í•˜ì„¸ìš”.
+- ì±—ë´‡ ìƒì„± ì–‘ì‹ ìš”êµ¬ ì‚¬í•­ì„ ì´í•´í•˜ì„¸ìš” (URLì€ ì†Œë¬¸ìž, í•˜ì´í”ˆ, ìˆ«ìžë§Œ í¬í•¨í•´ì•¼ í•©ë‹ˆë‹¤).
 
-### Ã¹ ¹øÂ° Ãªº¿ ¸¸µé±â
+### ì²« ë²ˆì§¸ ì±—ë´‡ ë§Œë“¤ê¸°
 
-**»õ·Î »ý¼ºÇÏ±â**
+**ìƒˆë¡œ ìƒì„±í•˜ê¸°**
 
-- "»õ Ãªº¿ ¸¸µé±â"¸¦ Å¬¸¯ÇÏ¼¼¿ä.
-- ÀÌ¸§ ÁöÁ¤ ÁöÄ§¿¡ ÁÖÀÇÇÏ¸ç Ãªº¿ »ý¼º ¾ç½ÄÀ» ÀÛ¼ºÇÏ¼¼¿ä.
-
-<img src= "">
-
-**±âÁ¸ Ãªº¿ ¼öÁ¤ÇÏ±â**
+- "ìƒˆ ì±—ë´‡ ë§Œë“¤ê¸°"ë¥¼ í´ë¦­í•˜ì„¸ìš”.
+- ì´ë¦„ ì§€ì • ì§€ì¹¨ì— ì£¼ì˜í•˜ë©° ì±—ë´‡ ìƒì„± ì–‘ì‹ì„ ìž‘ì„±í•˜ì„¸ìš”.
 
 <img src= "">
 
-## ? Ãªº¿ ÇÐ½ÀÇÏ±â
-
-### Áö½Ä º£ÀÌ½º
-
-- **À¥»çÀÌÆ® Å©·Ñ·¯**: À¥»çÀÌÆ®ÀÇ µ¥ÀÌÅÍ¸¦ »ç¿ëÇÏ¿© Ãªº¿À» ÇÐ½À½ÃÅµ´Ï´Ù.
-
-  [±â´É¼³¸í]
-
-- À¥»çÀÌÆ®ÀÇ URLÀ» ÀÔ·ÂÇÏ¿© Ãªº¿ÀÌ À¥»çÀÌÆ®ÀÇ ÄÜÅÙÃ÷¸¦ ÇÐ½ÀÇÏµµ·Ï ÇÒ ¼ö ÀÖ½À´Ï´Ù. ¹«·á ÇÃ·£ÀÇ °æ¿ì ÃÖ´ë 3°³ÀÇ ÇÏÀ§ ÆäÀÌÁö±îÁö Å©·Ñ¸µÀÌ °¡´ÉÇÕ´Ï´Ù.
-
-  [ÇÐ½À´Ü°è]
-
-  - Å©·Ñ¸µÇÒ À¥»çÀÌÆ® URLÀ» ÁöÁ¤ÇÕ´Ï´Ù.
-  - ÇÏÀ§ ÆäÀÌÁö¸¦ Å©·Ñ¸µÇÒÁö °áÁ¤ÇÕ´Ï´Ù.
-
-  [ÁÖÀÇ»çÇ×]
-
-  - À¥»çÀÌÆ® Å©±â¿¡ µû¸¥ ½Ã°£°ú Å©·¹µ÷ ¼Òºñ¿¡ ÁÖÀÇÇÏ¼¼¿ä.
+**ê¸°ì¡´ ì±—ë´‡ ìˆ˜ì •í•˜ê¸°**
 
 <img src= "">
 
-- **ÅØ½ºÆ® ÀÔ·Â**: ¼öµ¿À¸·Î »ý¼ºÇÑ ÅØ½ºÆ® Ç×¸ñÀ¸·Î Ãªº¿À» ÇÐ½À½ÃÅµ´Ï´Ù.
+## ðŸ“š ì±—ë´‡ í•™ìŠµí•˜ê¸°
 
-  [±â´É¼³¸í]
+### ì§€ì‹ ë² ì´ìŠ¤
 
-  - Á÷Á¢ Á¦¸ñ°ú ³»¿ëÀ» ÀÔ·ÂÇÏ¿© Ãªº¿¿¡°Ô »õ·Î¿î Áö½ÄÀ» Ãß°¡ÇÒ ¼ö ÀÖ½À´Ï´Ù. °£´ÜÇÑ Á¤º¸³ª FAQ¸¦ Ãß°¡ÇÏ±â¿¡ ÀûÇÕÇÕ´Ï´Ù.
+- **ì›¹ì‚¬ì´íŠ¸ í¬ë¡¤ëŸ¬**: ì›¹ì‚¬ì´íŠ¸ì˜ ë°ì´í„°ë¥¼ ì‚¬ìš©í•˜ì—¬ ì±—ë´‡ì„ í•™ìŠµì‹œí‚µë‹ˆë‹¤.
+
+  [ê¸°ëŠ¥ì„¤ëª…]
+
+- ì›¹ì‚¬ì´íŠ¸ì˜ URLì„ ìž…ë ¥í•˜ì—¬ ì±—ë´‡ì´ ì›¹ì‚¬ì´íŠ¸ì˜ ì½˜í…ì¸ ë¥¼ í•™ìŠµí•˜ë„ë¡ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ë¬´ë£Œ í”Œëžœì˜ ê²½ìš° ìµœëŒ€ 3ê°œì˜ í•˜ìœ„ íŽ˜ì´ì§€ê¹Œì§€ í¬ë¡¤ë§ì´ ê°€ëŠ¥í•©ë‹ˆë‹¤.
+
+  [í•™ìŠµë‹¨ê³„]
+
+  - í¬ë¡¤ë§í•  ì›¹ì‚¬ì´íŠ¸ URLì„ ì§€ì •í•©ë‹ˆë‹¤.
+  - í•˜ìœ„ íŽ˜ì´ì§€ë¥¼ í¬ë¡¤ë§í• ì§€ ê²°ì •í•©ë‹ˆë‹¤.
+
+  [ì£¼ì˜ì‚¬í•­]
+
+  - ì›¹ì‚¬ì´íŠ¸ í¬ê¸°ì— ë”°ë¥¸ ì‹œê°„ê³¼ í¬ë ˆë”§ ì†Œë¹„ì— ì£¼ì˜í•˜ì„¸ìš”.
 
 <img src= "">
 
-- **PDF ¹× Markdown ÆÄÀÏ**: PDF ¹× Markdown ÆÄÀÏÀ» ¾÷·ÎµåÇÏ¿© Ãªº¿À» ÇÐ½À½ÃÅµ´Ï´Ù.
+- **í…ìŠ¤íŠ¸ ìž…ë ¥**: ìˆ˜ë™ìœ¼ë¡œ ìƒì„±í•œ í…ìŠ¤íŠ¸ í•­ëª©ìœ¼ë¡œ ì±—ë´‡ì„ í•™ìŠµì‹œí‚µë‹ˆë‹¤.
 
-  - ÆÄÀÏÀÌ ¿Ã¹Ù¸¥ Çü½ÄÀÎÁö È®ÀÎÇÏ¼¼¿ä.
+  [ê¸°ëŠ¥ì„¤ëª…]
 
-  [±â´É¼³¸í]
-
-  - PDF ÆÄÀÏÀÌ³ª Markdown ÆÄÀÏÀ» ¾÷·ÎµåÇÏ¿© Ãªº¿ÀÌ ¹®¼­ÀÇ ³»¿ëÀ» ÇÐ½ÀÇÏµµ·Ï ÇÒ ¼ö ÀÖ½À´Ï´Ù. ´ë¿ë·®ÀÇ ¹®¼­³ª ±â¼ú ¹®¼­¸¦ ½±°Ô Ãß°¡ÇÒ ¼ö ÀÖ½À´Ï´Ù.
+  - ì§ì ‘ ì œëª©ê³¼ ë‚´ìš©ì„ ìž…ë ¥í•˜ì—¬ ì±—ë´‡ì—ê²Œ ìƒˆë¡œìš´ ì§€ì‹ì„ ì¶”ê°€í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ê°„ë‹¨í•œ ì •ë³´ë‚˜ FAQë¥¼ ì¶”ê°€í•˜ê¸°ì— ì í•©í•©ë‹ˆë‹¤.
 
 <img src= "">
 
-> ÁÖÀÇ»çÇ×
+- **PDF ë° Markdown íŒŒì¼**: PDF ë° Markdown íŒŒì¼ì„ ì—…ë¡œë“œí•˜ì—¬ ì±—ë´‡ì„ í•™ìŠµì‹œí‚µë‹ˆë‹¤.
+
+  - íŒŒì¼ì´ ì˜¬ë°”ë¥¸ í˜•ì‹ì¸ì§€ í™•ì¸í•˜ì„¸ìš”.
+
+  [ê¸°ëŠ¥ì„¤ëª…]
+
+  - PDF íŒŒì¼ì´ë‚˜ Markdown íŒŒì¼ì„ ì—…ë¡œë“œí•˜ì—¬ ì±—ë´‡ì´ ë¬¸ì„œì˜ ë‚´ìš©ì„ í•™ìŠµí•˜ë„ë¡ í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. ëŒ€ìš©ëŸ‰ì˜ ë¬¸ì„œë‚˜ ê¸°ìˆ  ë¬¸ì„œë¥¼ ì‰½ê²Œ ì¶”ê°€í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+
+<img src= "">
+
+> ì£¼ì˜ì‚¬í•­
 >
-> - ¾÷·ÎµåµÈ µ¥ÀÌÅÍ´Â ¼öÁ¤ÇÒ ¼ö ¾ø½À´Ï´Ù.
-> - "Áö½Ä º£ÀÌ½º" ¼³Á¤¿¡¼­ "³»º¸³»±â"¸¦ »ç¿ëÇÏ¿© ÇÐ½À µ¥ÀÌÅÍ¸¦ °ËÅäÇÏ¼¼¿ä.
-> - ¼öÁ¤ÇÏ·Á¸é µ¥ÀÌÅÍ¸¦ »èÁ¦ÇÏ°í ´Ù½Ã ¾÷·ÎµåÇÏ¼¼¿ä.
+> - ì—…ë¡œë“œëœ ë°ì´í„°ëŠ” ìˆ˜ì •í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
+> - "ì§€ì‹ ë² ì´ìŠ¤" ì„¤ì •ì—ì„œ "ë‚´ë³´ë‚´ê¸°"ë¥¼ ì‚¬ìš©í•˜ì—¬ í•™ìŠµ ë°ì´í„°ë¥¼ ê²€í† í•˜ì„¸ìš”.
+> - ìˆ˜ì •í•˜ë ¤ë©´ ë°ì´í„°ë¥¼ ì‚­ì œí•˜ê³  ë‹¤ì‹œ ì—…ë¡œë“œí•˜ì„¸ìš”.
 
-### Ãß°¡ ¸®¼Ò½º
+### ì¶”ê°€ ë¦¬ì†ŒìŠ¤
 
-- TXT ÆÄÀÏÀ» MD ÆÄÀÏ·Î º¯È¯ÇÏ±â: [°ü·Ã ¸µÅ© Á¦°ø].
+- TXT íŒŒì¼ì„ MD íŒŒì¼ë¡œ ë³€í™˜í•˜ê¸°: [ê´€ë ¨ ë§í¬ ì œê³µ].
 
-## ? ¿ÜºÎ ¼­ºñ½º¿Í ÅëÇÕÇÏ±â
+## ðŸ”Œ ì™¸ë¶€ ì„œë¹„ìŠ¤ì™€ í†µí•©í•˜ê¸°
 
-### API ÅëÇÕ
+### API í†µí•©
 
-[API¿¬°á´Ü°è]
+[APIì—°ê²°ë‹¨ê³„]
 
-- 1. API ¾×¼¼½º ½ÂÀÎÀ» ¹ÞÀ¸¼¼¿ä.
-- 2. API ±âº» ¼³Á¤
-     ¼³¸í: "ÅëÇÕ - µµ±¸" ¼½¼ÇÀ» »ç¿ëÇÏ¿© API ÅëÇÕÀ» »ý¼ºÇÏ°í °ü¸®ÇÏ¼¼¿ä.
-     Ç×¸ñ ±¸¼º:
-     - Name: APIÀÇ °íÀ¯ ÀÌ¸§À» ÀÔ·ÂÇÕ´Ï´Ù.
-     - Description: APIÀÇ ¿ëµµ³ª ±â´ÉÀ» ¼³¸íÇÕ´Ï´Ù.
-     - Base URL: APIÀÇ ±âº» URLÀ» ÀÔ·ÂÇÕ´Ï´Ù.
-     - Active: APIÀÇ È°¼ºÈ­ »óÅÂ¸¦ ¼³Á¤ÇÕ´Ï´Ù.
+- 1. API ì•¡ì„¸ìŠ¤ ìŠ¹ì¸ì„ ë°›ìœ¼ì„¸ìš”.
+- 2. API ê¸°ë³¸ ì„¤ì •
+     ì„¤ëª…: "í†µí•© - ë„êµ¬" ì„¹ì…˜ì„ ì‚¬ìš©í•˜ì—¬ API í†µí•©ì„ ìƒì„±í•˜ê³  ê´€ë¦¬í•˜ì„¸ìš”.
+     í•­ëª© êµ¬ì„±:
+     - Name: APIì˜ ê³ ìœ  ì´ë¦„ì„ ìž…ë ¥í•©ë‹ˆë‹¤.
+     - Description: APIì˜ ìš©ë„ë‚˜ ê¸°ëŠ¥ì„ ì„¤ëª…í•©ë‹ˆë‹¤.
+     - Base URL: APIì˜ ê¸°ë³¸ URLì„ ìž…ë ¥í•©ë‹ˆë‹¤.
+     - Active: APIì˜ í™œì„±í™” ìƒíƒœë¥¼ ì„¤ì •í•©ë‹ˆë‹¤.
 
   <img src="">
 
-- 3. ¿£µåÆ÷ÀÎÅÍ ¼³Á¤
-     ¼³¸í: APIÀÇ °¢ ±â´É¿¡ ´ëÇÑ ¿£µåÆ÷ÀÎÆ®¸¦ ¼³Á¤ÇÕ´Ï´Ù. ¿äÃ» ¹æ½Ä, °æ·Î, ÆÄ¶ó¹ÌÅÍ µîÀ» Á¤ÀÇÇÒ ¼ö ÀÖ½À´Ï´Ù.
-     Ç×¸ñ±¸¼º:
-     - Method: HTTP ¿äÃ» ¹æ½ÄÀ» ¼±ÅÃÇÕ´Ï´Ù (GET, POST µî).
-     - Path (URL): ¿£µåÆ÷ÀÎÆ®ÀÇ °æ·Î¸¦ ÁöÁ¤ÇÕ´Ï´Ù.
-     - Description: ¿£µåÆ÷ÀÎÆ®ÀÇ ±â´ÉÀ» ¼³¸íÇÕ´Ï´Ù.
-     - Query Parameters: URL Äõ¸® ÆÄ¶ó¹ÌÅÍ¸¦ ¼³Á¤ÇÕ´Ï´Ù.
-     - Path Parameters: URL °æ·Î ÆÄ¶ó¹ÌÅÍ¸¦ ¼³Á¤ÇÕ´Ï´Ù.
+- 3. ì—”ë“œí¬ì¸í„° ì„¤ì •
+     ì„¤ëª…: APIì˜ ê° ê¸°ëŠ¥ì— ëŒ€í•œ ì—”ë“œí¬ì¸íŠ¸ë¥¼ ì„¤ì •í•©ë‹ˆë‹¤. ìš”ì²­ ë°©ì‹, ê²½ë¡œ, íŒŒë¼ë¯¸í„° ë“±ì„ ì •ì˜í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+     í•­ëª©êµ¬ì„±:
+     - Method: HTTP ìš”ì²­ ë°©ì‹ì„ ì„ íƒí•©ë‹ˆë‹¤ (GET, POST ë“±).
+     - Path (URL): ì—”ë“œí¬ì¸íŠ¸ì˜ ê²½ë¡œë¥¼ ì§€ì •í•©ë‹ˆë‹¤.
+     - Description: ì—”ë“œí¬ì¸íŠ¸ì˜ ê¸°ëŠ¥ì„ ì„¤ëª…í•©ë‹ˆë‹¤.
+     - Query Parameters: URL ì¿¼ë¦¬ íŒŒë¼ë¯¸í„°ë¥¼ ì„¤ì •í•©ë‹ˆë‹¤.
+     - Path Parameters: URL ê²½ë¡œ íŒŒë¼ë¯¸í„°ë¥¼ ì„¤ì •í•©ë‹ˆë‹¤.
 
   <img src ="">
 
-- 4. API ÅëÇÕ°ü¸®
-     ¼³¸í: ¼³Á¤ÀÌ ¿Ï·áµÈ API´Â ÅëÇÕ µµ±¸ ¸ñ·Ï¿¡¼­ È®ÀÎÇÏ°í °ü¸®ÇÒ ¼ö ÀÖ½À´Ï´Ù.
-     Ç×¸ñ±¸¼º:
-     - Edit: API ¼³Á¤À» ¼öÁ¤ÇÕ´Ï´Ù
-     - Delete: API ÅëÇÕÀ» »èÁ¦ÇÕ´Ï´Ù
-     - Active »óÅÂ È®ÀÎ: APIÀÇ È°¼ºÈ­ »óÅÂ¸¦ Ç¥½ÃÇÕ´Ï´Ù
+- 4. API í†µí•©ê´€ë¦¬
+     ì„¤ëª…: ì„¤ì •ì´ ì™„ë£Œëœ APIëŠ” í†µí•© ë„êµ¬ ëª©ë¡ì—ì„œ í™•ì¸í•˜ê³  ê´€ë¦¬í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
+     í•­ëª©êµ¬ì„±:
+     - Edit: API ì„¤ì •ì„ ìˆ˜ì •í•©ë‹ˆë‹¤
+     - Delete: API í†µí•©ì„ ì‚­ì œí•©ë‹ˆë‹¤
+     - Active ìƒíƒœ í™•ì¸: APIì˜ í™œì„±í™” ìƒíƒœë¥¼ í‘œì‹œí•©ë‹ˆë‹¤
 
   <img src ="">
 
-> ÁÖÀÇ»çÇ×
+> ì£¼ì˜ì‚¬í•­
 >
-> - API ÅëÇÕ ±â´ÉÀº À¯·á ÇÃ·£¿¡¼­¸¸ »ç¿ë °¡´ÉÇÕ´Ï´Ù
-> - API È£Ãâ ½Ã ¹ß»ýÇÏ´Â ºñ¿ëÀº º°µµ·Î Ã»±¸µÉ ¼ö ÀÖ½À´Ï´Ù
-> - ¹Î°¨ÇÑ ÀÎÁõ Á¤º¸´Â ¾ÈÀüÇÏ°Ô º¸°üµÇ¾î¾ß ÇÕ´Ï´Ù
-> - API »ç¿ë·®°ú ÀÀ´ä ½Ã°£À» ¸ð´ÏÅÍ¸µÇÏ´Â °ÍÀ» ±ÇÀåÇÕ´Ï´Ù
+> - API í†µí•© ê¸°ëŠ¥ì€ ìœ ë£Œ í”Œëžœì—ì„œë§Œ ì‚¬ìš© ê°€ëŠ¥í•©ë‹ˆë‹¤
+> - API í˜¸ì¶œ ì‹œ ë°œìƒí•˜ëŠ” ë¹„ìš©ì€ ë³„ë„ë¡œ ì²­êµ¬ë  ìˆ˜ ìžˆìŠµë‹ˆë‹¤
+> - ë¯¼ê°í•œ ì¸ì¦ ì •ë³´ëŠ” ì•ˆì „í•˜ê²Œ ë³´ê´€ë˜ì–´ì•¼ í•©ë‹ˆë‹¤
+> - API ì‚¬ìš©ëŸ‰ê³¼ ì‘ë‹µ ì‹œê°„ì„ ëª¨ë‹ˆí„°ë§í•˜ëŠ” ê²ƒì„ ê¶Œìž¥í•©ë‹ˆë‹¤
 
-### ¼Ò¼È ¹Ìµð¾î ¿¬°á
+### ì†Œì…œ ë¯¸ë””ì–´ ì—°ê²°
 
-- ¿øÇÏ´Â ¼Ò¼È ¹Ìµð¾î ºñÁî´Ï½º Ã¤³Î¿¡ µî·ÏÇÏ°í ½ÂÀÎÀ» ¹ÞÀ¸¼¼¿ä.
-- "ÅëÇÕ - µµ±¸" ¼½¼ÇÀ» »ç¿ëÇÏ¿© ¼Ò¼È ¹Ìµð¾î ¿¬°áÀ» ¼³Á¤ÇÏ¼¼¿ä.
-  - °¢ ¼Ò¼È ¹Ìµð¾î ÇÃ·§ÆûÀÇ API Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä.
-  - URLÀ» º¹»çÇÏ¿© ¼Ò¼È ¹Ìµð¾î ÇÃ·§ÆûÀÇ À¥ÈÅ ÄÜ¼Ö¿¡ ºÙ¿©³Ö¾î À¥ÈÅÀ» ±¸¼ºÇÏ¼¼¿ä.
+- ì›í•˜ëŠ” ì†Œì…œ ë¯¸ë””ì–´ ë¹„ì¦ˆë‹ˆìŠ¤ ì±„ë„ì— ë“±ë¡í•˜ê³  ìŠ¹ì¸ì„ ë°›ìœ¼ì„¸ìš”.
+- "í†µí•© - ë„êµ¬" ì„¹ì…˜ì„ ì‚¬ìš©í•˜ì—¬ ì†Œì…œ ë¯¸ë””ì–´ ì—°ê²°ì„ ì„¤ì •í•˜ì„¸ìš”.
+  - ê° ì†Œì…œ ë¯¸ë””ì–´ í”Œëž«í¼ì˜ API í‚¤ë¥¼ ìž…ë ¥í•˜ì„¸ìš”.
+  - URLì„ ë³µì‚¬í•˜ì—¬ ì†Œì…œ ë¯¸ë””ì–´ í”Œëž«í¼ì˜ ì›¹í›… ì½˜ì†”ì— ë¶™ì—¬ë„£ì–´ ì›¹í›…ì„ êµ¬ì„±í•˜ì„¸ìš”.
 
-[ÇÃ·§Æûº° ¼³Á¤ ¹æ¹ý]
+[í”Œëž«í¼ë³„ ì„¤ì • ë°©ë²•]
 
 <details>
-<summary>Ä«Ä«¿ÀÅå</summary>
+<summary>ì¹´ì¹´ì˜¤í†¡</summary>
 <div markdown="1">
 
 <details>
-<summary>Ä«Ä«¿À Ã¤³Î °³¼³ÇÏ±â</summary>
+<summary>ì¹´ì¹´ì˜¤ ì±„ë„ ê°œì„¤í•˜ê¸°</summary>
 <div>
-1. Ä«Ä«¿ÀÅå Ã¤³Î °ü¸®ÀÚ ¼¾ÅÍ °èÁ¤À» ¸¸µé°Å³ª ÀÌ¹Ì ÀÖ´Â °æ¿ì ·Î±×ÀÎÇÕ´Ï´Ù.<br>
-2. ´ÙÀ½ Á¤º¸¸¦ Á¦°øÇÏ¿© Ãªº¿¿ë Ä«Ä«¿ÀÅå Ã¤³ÎÀ» ¸¸µì´Ï´Ù:<br>
-  - ÇÁ·ÎÇÊ »çÁø<br>
-  - Ã¤³Î ÀÌ¸§<br>
-  - °Ë»ö¿ë ID<br>
-  - ¼Ò°³<br>
-3. Ã¤³Î »ý¼º ¹öÆ°À» Å¬¸¯ÇÕ´Ï´Ù.<br>
-4. ´ë½Ãº¸µå·Î ÀÌµ¿ÇÏ¿© "Ã¤³Î °ø°³" ¼³Á¤À» ONÀ¸·Î ÀüÈ¯ÇÏ¿© Ã¤³ÎÀ» °ø°³ÇÕ´Ï´Ù.<br>
+1. ì¹´ì¹´ì˜¤í†¡ ì±„ë„ ê´€ë¦¬ìž ì„¼í„° ê³„ì •ì„ ë§Œë“¤ê±°ë‚˜ ì´ë¯¸ ìžˆëŠ” ê²½ìš° ë¡œê·¸ì¸í•©ë‹ˆë‹¤.<br>
+2. ë‹¤ìŒ ì •ë³´ë¥¼ ì œê³µí•˜ì—¬ ì±—ë´‡ìš© ì¹´ì¹´ì˜¤í†¡ ì±„ë„ì„ ë§Œë“­ë‹ˆë‹¤:<br>
+  - í”„ë¡œí•„ ì‚¬ì§„<br>
+  - ì±„ë„ ì´ë¦„<br>
+  - ê²€ìƒ‰ìš© ID<br>
+  - ì†Œê°œ<br>
+3. ì±„ë„ ìƒì„± ë²„íŠ¼ì„ í´ë¦­í•©ë‹ˆë‹¤.<br>
+4. ëŒ€ì‹œë³´ë“œë¡œ ì´ë™í•˜ì—¬ "ì±„ë„ ê³µê°œ" ì„¤ì •ì„ ONìœ¼ë¡œ ì „í™˜í•˜ì—¬ ì±„ë„ì„ ê³µê°œí•©ë‹ˆë‹¤.<br>
    
-ÀÌ ´Ü°èµéÀ» ¿Ï·áÇÏ¸é Ä«Ä«¿ÀÅå Ã¤³ÎÀÌ Ãß°¡ ±¸¼º ¹× Ãªº¿°úÀÇ ÅëÇÕÀ» À§ÇØ ÁØºñµË´Ï´Ù.
+ì´ ë‹¨ê³„ë“¤ì„ ì™„ë£Œí•˜ë©´ ì¹´ì¹´ì˜¤í†¡ ì±„ë„ì´ ì¶”ê°€ êµ¬ì„± ë° ì±—ë´‡ê³¼ì˜ í†µí•©ì„ ìœ„í•´ ì¤€ë¹„ë©ë‹ˆë‹¤.
 </div>
 </details>
 
 <details>
-<summary>ºñÁî´Ï½º Ã¤³Î ½ÅÃ»ÇÏ±â</summary>
+<summary>ë¹„ì¦ˆë‹ˆìŠ¤ ì±„ë„ ì‹ ì²­í•˜ê¸°</summary>
 <div>
-1. Ã¤³Î °ü¸®ÀÚ ¼¾ÅÍ·Î ÀÌµ¿ÇÏ¿© "°ü¸®" ÅÇÀ» ¼±ÅÃÇÕ´Ï´Ù. <br>
-2. "[°ü¸®] - [ºñÁî´Ï½º Ã¤³Î ½ÅÃ»]" ¸Þ´º¸¦ ¼±ÅÃÇÕ´Ï´Ù. <br>
-3. "ºñÁî´Ï½º Ã¤³Î ½ÅÃ»" ¹öÆ°À» Å¬¸¯ÇÕ´Ï´Ù. <br>
-4. ´ÙÀ½°ú °°Àº ºñÁî´Ï½º Á¤º¸¸¦ Á¦°øÇÕ´Ï´Ù:<br>
-   - »ç¾÷ÀÚ µî·Ï ¹øÈ£<br>
-   - ½ÅÃ»ÀÚ Á¤º¸<br>
-   - ¾÷Á¾º° Çã°¡Áõ (ÇØ´çµÇ´Â °æ¿ì)<br>
-5. Ã¤³Î Á¤º¸¿Í ºñÁî´Ï½º Á¤º¸°¡ Á¤È®ÇÏ°Ô ÀÔ·ÂµÇ¾ú´ÂÁö È®ÀÎÇÕ´Ï´Ù. ÀÌ´Â ºñÁî´Ï½º Ã¤³Î ½ÂÀÎ¿¡ ¿µÇâÀ» ÁÙ ¼ö ÀÖ½À´Ï´Ù.<br>
-6. ½ÅÃ»¼­¸¦ Á¦ÃâÇÕ´Ï´Ù. <br>
+1. ì±„ë„ ê´€ë¦¬ìž ì„¼í„°ë¡œ ì´ë™í•˜ì—¬ "ê´€ë¦¬" íƒ­ì„ ì„ íƒí•©ë‹ˆë‹¤. <br>
+2. "[ê´€ë¦¬] - [ë¹„ì¦ˆë‹ˆìŠ¤ ì±„ë„ ì‹ ì²­]" ë©”ë‰´ë¥¼ ì„ íƒí•©ë‹ˆë‹¤. <br>
+3. "ë¹„ì¦ˆë‹ˆìŠ¤ ì±„ë„ ì‹ ì²­" ë²„íŠ¼ì„ í´ë¦­í•©ë‹ˆë‹¤. <br>
+4. ë‹¤ìŒê³¼ ê°™ì€ ë¹„ì¦ˆë‹ˆìŠ¤ ì •ë³´ë¥¼ ì œê³µí•©ë‹ˆë‹¤:<br>
+   - ì‚¬ì—…ìž ë“±ë¡ ë²ˆí˜¸<br>
+   - ì‹ ì²­ìž ì •ë³´<br>
+   - ì—…ì¢…ë³„ í—ˆê°€ì¦ (í•´ë‹¹ë˜ëŠ” ê²½ìš°)<br>
+5. ì±„ë„ ì •ë³´ì™€ ë¹„ì¦ˆë‹ˆìŠ¤ ì •ë³´ê°€ ì •í™•í•˜ê²Œ ìž…ë ¥ë˜ì—ˆëŠ”ì§€ í™•ì¸í•©ë‹ˆë‹¤. ì´ëŠ” ë¹„ì¦ˆë‹ˆìŠ¤ ì±„ë„ ìŠ¹ì¸ì— ì˜í–¥ì„ ì¤„ ìˆ˜ ìžˆìŠµë‹ˆë‹¤.<br>
+6. ì‹ ì²­ì„œë¥¼ ì œì¶œí•©ë‹ˆë‹¤. <br>
   
-ºñÁî´Ï½º Ã¤³Î ½ÅÃ»¿¡ ´ëÇÑ °ËÅä °úÁ¤Àº ¾à 1ÁÖÀÏÀÌ ¼Ò¿äµË´Ï´Ù. ºñÁî´Ï½º Ã¤³ÎÀÌ ½ÂÀÎµÇ¸é Ä«Ä«¿ÀÅåÀ» HappyTalk¿¡ ¿¬°áÇÒ ¼ö ÀÖ½À´Ï´Ù.<br><br>
+ë¹„ì¦ˆë‹ˆìŠ¤ ì±„ë„ ì‹ ì²­ì— ëŒ€í•œ ê²€í†  ê³¼ì •ì€ ì•½ 1ì£¼ì¼ì´ ì†Œìš”ë©ë‹ˆë‹¤. ë¹„ì¦ˆë‹ˆìŠ¤ ì±„ë„ì´ ìŠ¹ì¸ë˜ë©´ ì¹´ì¹´ì˜¤í†¡ì„ HappyTalkì— ì—°ê²°í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.<br><br>
 
-<h2>Ä«Ä«¿ÀÅå Ã¤³Î URL È®ÀÎÇÏ±â</h2>
-Ä«Ä«¿À Ãªº¿À» ½ÅÃ»ÇÏ·Á¸é Ã¤³Î URLÀÌ ÇÊ¿äÇÕ´Ï´Ù. ÀÌ´Â "[Ã¤³Î °ü¸®ÀÚ ¼¾ÅÍ] - [°ü¸®] - [»ó¼¼ ¼³Á¤]"¿¡¼­ È®ÀÎÇÒ ¼ö ÀÖ½À´Ï´Ù.<br>
+<h2>ì¹´ì¹´ì˜¤í†¡ ì±„ë„ URL í™•ì¸í•˜ê¸°</h2>
+ì¹´ì¹´ì˜¤ ì±—ë´‡ì„ ì‹ ì²­í•˜ë ¤ë©´ ì±„ë„ URLì´ í•„ìš”í•©ë‹ˆë‹¤. ì´ëŠ” "[ì±„ë„ ê´€ë¦¬ìž ì„¼í„°] - [ê´€ë¦¬] - [ìƒì„¸ ì„¤ì •]"ì—ì„œ í™•ì¸í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.<br>
 </div>
 </details>
 
 <details>
-<summary>Ä«Ä«¿ÀÅå Ã¤ÆÃ¹æ Ä¿½ºÅÍ¸¶ÀÌÂ¡</summary>
+<summary>ì¹´ì¹´ì˜¤í†¡ ì±„íŒ…ë°© ì»¤ìŠ¤í„°ë§ˆì´ì§•</summary>
 <div>
-1. Ã¤³Î °ü¸®ÀÚ ¼¾ÅÍ·Î ÀÌµ¿ÇÏ¿© "[Ã¤³Î °ü¸®ÀÚ ¼¾ÅÍ] - [ºñÁî´Ï½º µµ±¸] - [Ã¤ÆÃ¹æ Ä¿½ºÅÒ ¸Þ´º]"¸¦ ¼±ÅÃÇÕ´Ï´Ù. <br>
-2. »ç¿ëÀÚ°¡ Ã¤ÆÃ¹æ¿¡ ÀÔÀåÇÒ ¶§ Ä¿½ºÅÒ ¸Þ´º°¡ ¿­·Á ÀÖÀ»Áö ´ÝÇô ÀÖÀ»Áö ¼±ÅÃÇÕ´Ï´Ù.<br>
-3. Ä¿½ºÅÒ ¸Þ´º Á¦¸ñÀ» ¼³Á¤ÇÕ´Ï´Ù (ÃÖ´ë 8ÀÚ).<br>
-4. ¿©·¯ ¸Þ´º ½ºÅ¸ÀÏ°ú »ö»ó Áß¿¡¼­ ¼±ÅÃÇÕ´Ï´Ù.<br>
-5. ¸Þ´º¸¦ ¼³Á¤ÇÕ´Ï´Ù. ´ÙÀ½À» Æ÷ÇÔÇÒ ¼ö ÀÖ½À´Ï´Ù:<br>
-   - URL ¸µÅ©<br>
-   - ÀÚµ¿ ÀÀ´ä ¸Þ½ÃÁö<br>
+1. ì±„ë„ ê´€ë¦¬ìž ì„¼í„°ë¡œ ì´ë™í•˜ì—¬ "[ì±„ë„ ê´€ë¦¬ìž ì„¼í„°] - [ë¹„ì¦ˆë‹ˆìŠ¤ ë„êµ¬] - [ì±„íŒ…ë°© ì»¤ìŠ¤í…€ ë©”ë‰´]"ë¥¼ ì„ íƒí•©ë‹ˆë‹¤. <br>
+2. ì‚¬ìš©ìžê°€ ì±„íŒ…ë°©ì— ìž…ìž¥í•  ë•Œ ì»¤ìŠ¤í…€ ë©”ë‰´ê°€ ì—´ë ¤ ìžˆì„ì§€ ë‹«í˜€ ìžˆì„ì§€ ì„ íƒí•©ë‹ˆë‹¤.<br>
+3. ì»¤ìŠ¤í…€ ë©”ë‰´ ì œëª©ì„ ì„¤ì •í•©ë‹ˆë‹¤ (ìµœëŒ€ 8ìž).<br>
+4. ì—¬ëŸ¬ ë©”ë‰´ ìŠ¤íƒ€ì¼ê³¼ ìƒ‰ìƒ ì¤‘ì—ì„œ ì„ íƒí•©ë‹ˆë‹¤.<br>
+5. ë©”ë‰´ë¥¼ ì„¤ì •í•©ë‹ˆë‹¤. ë‹¤ìŒì„ í¬í•¨í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤:<br>
+   - URL ë§í¬<br>
+   - ìžë™ ì‘ë‹µ ë©”ì‹œì§€<br>
    - FAQ<br>
-   - °Ô½Ã¹°<br>
-   - ÄíÆù<br>
-   - Ã¤³Î ÇÁ·ÎÇÊ<br>
-   - QR/¹ÙÄÚµå ½ºÄ³³Ê<br>
-   - ¾Û<br>
-   - ÀüÈ­¹øÈ£<br>
-6. ¼±ÅÃÀûÀ¸·Î ¸Þ´º¿¡ ¹èÁö¸¦ Ãß°¡ÇÏ¿© ´õ ´«¿¡ ¶ç°Ô ¸¸µì´Ï´Ù.<br>
-7. º¯°æ »çÇ×À» ÀúÀåÇÏ°í Ä¿½ºÅÒ ¸Þ´º¸¦ ONÀ¸·Î ÀüÈ¯ÇÏ¿© È°¼ºÈ­ÇÕ´Ï´Ù.<br>
+   - ê²Œì‹œë¬¼<br>
+   - ì¿ í°<br>
+   - ì±„ë„ í”„ë¡œí•„<br>
+   - QR/ë°”ì½”ë“œ ìŠ¤ìºë„ˆ<br>
+   - ì•±<br>
+   - ì „í™”ë²ˆí˜¸<br>
+6. ì„ íƒì ìœ¼ë¡œ ë©”ë‰´ì— ë°°ì§€ë¥¼ ì¶”ê°€í•˜ì—¬ ë” ëˆˆì— ë„ê²Œ ë§Œë“­ë‹ˆë‹¤.<br>
+7. ë³€ê²½ ì‚¬í•­ì„ ì €ìž¥í•˜ê³  ì»¤ìŠ¤í…€ ë©”ë‰´ë¥¼ ONìœ¼ë¡œ ì „í™˜í•˜ì—¬ í™œì„±í™”í•©ë‹ˆë‹¤.<br>
 
-Ãªº¿¿¡¼­ ÀÌ¹Ì ÀÏ¹Ý ¸Þ´º¸¦ »ç¿ë ÁßÀÎ °æ¿ì, Ä¿½ºÅÒ ¸Þ´º¸¦ È°¼ºÈ­ÇÏ¸é ÀÚµ¿À¸·Î ºñÈ°¼ºÈ­µË´Ï´Ù.<br>
+ì±—ë´‡ì—ì„œ ì´ë¯¸ ì¼ë°˜ ë©”ë‰´ë¥¼ ì‚¬ìš© ì¤‘ì¸ ê²½ìš°, ì»¤ìŠ¤í…€ ë©”ë‰´ë¥¼ í™œì„±í™”í•˜ë©´ ìžë™ìœ¼ë¡œ ë¹„í™œì„±í™”ë©ë‹ˆë‹¤.<br>
 
 </div>
 </details>
 
 <details>
-<summary>Ä«Ä«¿ÀÅå Ãªº¿ °³¼³ÇÏ±â</summary>
+<summary>ì¹´ì¹´ì˜¤í†¡ ì±—ë´‡ ê°œì„¤í•˜ê¸°</summary>
 <div>
-¾Æ·¡´Â okchat Bot °èÁ¤ »ý¼ººÎÅÍ KakaoTalk Ã¤³Î°úÀÇ ¿¬µ¿±îÁöÀÇ °úÁ¤À» ´Ü°èº°·Î Á¤¸®ÇÑ ÇÑ±Û °¡ÀÌµåÀÔ´Ï´Ù.
+ì•„ëž˜ëŠ” okchat Bot ê³„ì • ìƒì„±ë¶€í„° KakaoTalk ì±„ë„ê³¼ì˜ ì—°ë™ê¹Œì§€ì˜ ê³¼ì •ì„ ë‹¨ê³„ë³„ë¡œ ì •ë¦¬í•œ í•œê¸€ ê°€ì´ë“œìž…ë‹ˆë‹¤.
 
 ---
 
-## 1. okchat Bot °èÁ¤ »ý¼º
+## 1. okchat Bot ê³„ì • ìƒì„±
 
-1. **okchat Bot À¥»çÀÌÆ®**¿¡ Á¢¼ÓÇÕ´Ï´Ù. (Á¤È®ÇÑ URLÀº ¸í½ÃµÇÁö ¾Ê¾ÒÀ¸³ª, ÇØ´ç ¼­ºñ½ºÀÇ È¨ÆäÀÌÁö¸¦ ¹æ¹®ÇÏ¼¼¿ä.) <br>
-2. **ÀÌ¸ÞÀÏ ¹ß¼Û**: `sales@[okchat botÀÇ URL]` ÁÖ¼Ò·Î ¾Æ·¡ Á¤º¸¸¦ Æ÷ÇÔÇÏ¿© ¸ÞÀÏÀ» º¸³»ÁÖ¼¼¿ä. <br>
-   - **ÀÌ¸§** <br>
-   - **ÈÞ´ëÆù ¹øÈ£** <br>
-   - **ÀÌ¸ÞÀÏ ÁÖ¼Ò** <br>
-3. **°èÁ¤ ½ÂÀÎ**: okchat Bot ¿µ¾÷ÆÀÀ¸·ÎºÎÅÍ °èÁ¤ »ý¼º °ü·Ã ¾È³» ¸ÞÀÏÀ» ±â´Ù¸³´Ï´Ù. <br>
-
----
-
-## 2. Kakao i Open Builder ¶óÀÌ¼±½º ½ÅÃ» <br>
-
-1. [**Kakao i À¥»çÀÌÆ®**](https://i.kakao.com/)¿¡ Á¢¼ÓÇÕ´Ï´Ù. <br>
-2. **Kakao i Open Builder ¶óÀÌ¼±½º** ½ÅÃ» ÆäÀÌÁö¿¡¼­ °ü·Ã Á¤º¸¸¦ ÀÛ¼ºÇÕ´Ï´Ù. <br>
-3. **¾à 3ÀÏ Á¤µµ** °ËÅä ±â°£À» ±â´Ù¸³´Ï´Ù. (ÀÌÈÄ ¶óÀÌ¼±½º ½ÂÀÎ ¿©ºÎ°¡ ¾È³»µË´Ï´Ù.) <br>
+1. **okchat Bot ì›¹ì‚¬ì´íŠ¸**ì— ì ‘ì†í•©ë‹ˆë‹¤. (ì •í™•í•œ URLì€ ëª…ì‹œë˜ì§€ ì•Šì•˜ìœ¼ë‚˜, í•´ë‹¹ ì„œë¹„ìŠ¤ì˜ í™ˆíŽ˜ì´ì§€ë¥¼ ë°©ë¬¸í•˜ì„¸ìš”.) <br>
+2. **ì´ë©”ì¼ ë°œì†¡**: `sales@[okchat botì˜ URL]` ì£¼ì†Œë¡œ ì•„ëž˜ ì •ë³´ë¥¼ í¬í•¨í•˜ì—¬ ë©”ì¼ì„ ë³´ë‚´ì£¼ì„¸ìš”. <br>
+   - **ì´ë¦„** <br>
+   - **íœ´ëŒ€í° ë²ˆí˜¸** <br>
+   - **ì´ë©”ì¼ ì£¼ì†Œ** <br>
+3. **ê³„ì • ìŠ¹ì¸**: okchat Bot ì˜ì—…íŒ€ìœ¼ë¡œë¶€í„° ê³„ì • ìƒì„± ê´€ë ¨ ì•ˆë‚´ ë©”ì¼ì„ ê¸°ë‹¤ë¦½ë‹ˆë‹¤. <br>
 
 ---
 
-## 3. Kakao i Open Builder¿¡¼­ »õ º¿ »ý¼º <br>
+## 2. Kakao i Open Builder ë¼ì´ì„ ìŠ¤ ì‹ ì²­ <br>
 
-1. **Kakao i Open Builder** °èÁ¤¿¡ ¶óÀÌ¼±½º ½ÂÀÎ ÈÄ ·Î±×ÀÎÇÕ´Ï´Ù. <br>
-2. **¡°»õ º¿ ¸¸µé±â¡±** ¹öÆ°(¶Ç´Â À¯»ç ¸Þ´º)À» Å¬¸¯ÇÕ´Ï´Ù. <br>
-3. **º¿ ÀÌ¸§ ¹× ±âº» ¼³Á¤**À» ÀÔ·ÂÇÏ°í º¿À» »ý¼ºÇÕ´Ï´Ù. <br>
+1. [**Kakao i ì›¹ì‚¬ì´íŠ¸**](https://i.kakao.com/)ì— ì ‘ì†í•©ë‹ˆë‹¤. <br>
+2. **Kakao i Open Builder ë¼ì´ì„ ìŠ¤** ì‹ ì²­ íŽ˜ì´ì§€ì—ì„œ ê´€ë ¨ ì •ë³´ë¥¼ ìž‘ì„±í•©ë‹ˆë‹¤. <br>
+3. **ì•½ 3ì¼ ì •ë„** ê²€í†  ê¸°ê°„ì„ ê¸°ë‹¤ë¦½ë‹ˆë‹¤. (ì´í›„ ë¼ì´ì„ ìŠ¤ ìŠ¹ì¸ ì—¬ë¶€ê°€ ì•ˆë‚´ë©ë‹ˆë‹¤.) <br>
 
 ---
 
-## 4. KakaoTalk Ã¤³Î°ú º¿ ¿¬µ¿ <br>
+## 3. Kakao i Open Builderì—ì„œ ìƒˆ ë´‡ ìƒì„± <br>
 
-1. **Chatbot Manager Center**(Ãªº¿ °ü¸®ÀÚ ¼¾ÅÍ)¿¡ Á¢¼ÓÇÕ´Ï´Ù. <br>
-2. ¾Æ·¡ °æ·Î·Î ÀÌµ¿ÇÕ´Ï´Ù: <br>
+1. **Kakao i Open Builder** ê³„ì •ì— ë¼ì´ì„ ìŠ¤ ìŠ¹ì¸ í›„ ë¡œê·¸ì¸í•©ë‹ˆë‹¤. <br>
+2. **â€œìƒˆ ë´‡ ë§Œë“¤ê¸°â€** ë²„íŠ¼(ë˜ëŠ” ìœ ì‚¬ ë©”ë‰´)ì„ í´ë¦­í•©ë‹ˆë‹¤. <br>
+3. **ë´‡ ì´ë¦„ ë° ê¸°ë³¸ ì„¤ì •**ì„ ìž…ë ¥í•˜ê³  ë´‡ì„ ìƒì„±í•©ë‹ˆë‹¤. <br>
+
+---
+
+## 4. KakaoTalk ì±„ë„ê³¼ ë´‡ ì—°ë™ <br>
+
+1. **Chatbot Manager Center**(ì±—ë´‡ ê´€ë¦¬ìž ì„¼í„°)ì— ì ‘ì†í•©ë‹ˆë‹¤. <br>
+2. ì•„ëž˜ ê²½ë¡œë¡œ ì´ë™í•©ë‹ˆë‹¤: <br>
    ```
    Chatbot Manager Center
-   ¡æ ¼³Á¤(Settings) <>
-   ¡æ KakaoTalk Ã¤³Î ¿¬°á(KakaoTalk Channel Connection)
-   ¡æ ¿î¿µ Ã¤³Î ¿¬°á(Operating Channel Connection)
+   â†’ ì„¤ì •(Settings) <>
+   â†’ KakaoTalk ì±„ë„ ì—°ê²°(KakaoTalk Channel Connection)
+   â†’ ìš´ì˜ ì±„ë„ ì—°ê²°(Operating Channel Connection)
    ```
-3. **¿¬µ¿ÇÒ KakaoTalk Ã¤³Î**À» ¼±ÅÃÇÏ¿© »õ·Î »ý¼ºµÈ º¿°ú ¿¬°áÇÕ´Ï´Ù. <br>
+3. **ì—°ë™í•  KakaoTalk ì±„ë„**ì„ ì„ íƒí•˜ì—¬ ìƒˆë¡œ ìƒì„±ëœ ë´‡ê³¼ ì—°ê²°í•©ë‹ˆë‹¤. <br>
 
 ---
 
-## 5. º¿ Å×½ºÆ® <br>
+## 5. ë´‡ í…ŒìŠ¤íŠ¸ <br>
 
-1. **°³¹ßÀÚ Ã¤³Î(Å×½ºÆ® Ã¤³Î)**À» ¼³Á¤ÇÏ¿© ½ÇÁ¦ °ø°³ Àü ¾ÈÀüÇÏ°Ô Å×½ºÆ®¸¦ ÁøÇàÇÕ´Ï´Ù. <br>
-2. **Å×½ºÆ® ¸Þ½ÃÁö¸¦ ÁÖ°í¹ÞÀ¸¸ç** º¿ÀÇ ÀÀ´ä°ú ±â´ÉÀÌ Á¤»óÀûÀ¸·Î ÀÛµ¿ÇÏ´ÂÁö È®ÀÎÇÕ´Ï´Ù. <br>
-
----
-
-## 6. º¿ °ü¸®ÀÚ ±ÇÇÑ ¼³Á¤ <br>
-
-1. **Chatbot Manager Center**¿¡¼­ º¿ °ü¸®ÀÚ ¼³Á¤ ¸Þ´º·Î ÀÌµ¿ÇÕ´Ï´Ù. <br>
-2. **°ü¸®ÀÚ·Î ÃÊ´ëÇÒ »ç¿ëÀÚ**¸¦ Ãß°¡ÇÏ°Å³ª, ÇÊ¿äÇÑ °æ¿ì ¿©·¯ ¸í¿¡°Ô ±ÇÇÑÀ» ºÎ¿©ÇÕ´Ï´Ù. <br>
+1. **ê°œë°œìž ì±„ë„(í…ŒìŠ¤íŠ¸ ì±„ë„)**ì„ ì„¤ì •í•˜ì—¬ ì‹¤ì œ ê³µê°œ ì „ ì•ˆì „í•˜ê²Œ í…ŒìŠ¤íŠ¸ë¥¼ ì§„í–‰í•©ë‹ˆë‹¤. <br>
+2. **í…ŒìŠ¤íŠ¸ ë©”ì‹œì§€ë¥¼ ì£¼ê³ ë°›ìœ¼ë©°** ë´‡ì˜ ì‘ë‹µê³¼ ê¸°ëŠ¥ì´ ì •ìƒì ìœ¼ë¡œ ìž‘ë™í•˜ëŠ”ì§€ í™•ì¸í•©ë‹ˆë‹¤. <br>
 
 ---
 
-## 7. ÃÖÁ¾ È®ÀÎ ¹× ¹èÆ÷ <br>
+## 6. ë´‡ ê´€ë¦¬ìž ê¶Œí•œ ì„¤ì • <br>
 
-- ¸ðµç ¼³Á¤°ú Å×½ºÆ®¸¦ ¿Ï·áÇß´Ù¸é, **KakaoTalk Ãªº¿**Àº **Ãß°¡ ±¸¼º ¹× ¹èÆ÷**°¡ °¡´ÉÇÑ »óÅÂ°¡ µË´Ï´Ù. <br>
-
----
-
-### ´ÙÀ½ ´Ü°è ¹× ÆÁ <br>
-
-- Kakao i Open Builder¿¡¼­ Á¦°øÇÏ´Â **´Ù¾çÇÑ ±â´É**À» »ç¿ëÇØ º¿ÀÇ ´ëÈ­ Èå¸§À» **¸ÂÃãÈ­**ÇÏ¼¼¿ä. <br>
-- º¿ÀÌ È°¼ºÈ­µÈ ÈÄ¿¡´Â **»ç¿ëÀÚ ÀÎÅÍ·¢¼Ç** ¹× **ºÐ¼® µ¥ÀÌÅÍ**¸¦ Àû±ØÀûÀ¸·Î ¸ð´ÏÅÍ¸µÇÏ¼¼¿ä. <br>
-- **ÁÖ±âÀûÀÎ ¾÷µ¥ÀÌÆ®**¸¦ ÅëÇØ »ç¿ëÀÚµéÀÌ Áñ°Ü »ç¿ëÇÏ´Â À¯¿ëÇÏ°í Àç¹ÌÀÖ´Â º¿À¸·Î ¹ßÀü½ÃÅ°¼¼¿ä. <br>
+1. **Chatbot Manager Center**ì—ì„œ ë´‡ ê´€ë¦¬ìž ì„¤ì • ë©”ë‰´ë¡œ ì´ë™í•©ë‹ˆë‹¤. <br>
+2. **ê´€ë¦¬ìžë¡œ ì´ˆëŒ€í•  ì‚¬ìš©ìž**ë¥¼ ì¶”ê°€í•˜ê±°ë‚˜, í•„ìš”í•œ ê²½ìš° ì—¬ëŸ¬ ëª…ì—ê²Œ ê¶Œí•œì„ ë¶€ì—¬í•©ë‹ˆë‹¤. <br>
 
 ---
 
-À§ °úÁ¤À» ¿Ï·áÇÏ½Ã¸é okchat Bot°ú Kakao i Open Builder¸¦ ÀÌ¿ëÇÑ KakaoTalk Ãªº¿ ±¸¼ºÀÌ ¿Ï·áµË´Ï´Ù. ¼º°øÀûÀÎ Ãªº¿ ¿î¿µÀ» ±â¿øÇÕ´Ï´Ù! <br>
+## 7. ìµœì¢… í™•ì¸ ë° ë°°í¬ <br>
+
+- ëª¨ë“  ì„¤ì •ê³¼ í…ŒìŠ¤íŠ¸ë¥¼ ì™„ë£Œí–ˆë‹¤ë©´, **KakaoTalk ì±—ë´‡**ì€ **ì¶”ê°€ êµ¬ì„± ë° ë°°í¬**ê°€ ê°€ëŠ¥í•œ ìƒíƒœê°€ ë©ë‹ˆë‹¤. <br>
+
+---
+
+### ë‹¤ìŒ ë‹¨ê³„ ë° íŒ <br>
+
+- Kakao i Open Builderì—ì„œ ì œê³µí•˜ëŠ” **ë‹¤ì–‘í•œ ê¸°ëŠ¥**ì„ ì‚¬ìš©í•´ ë´‡ì˜ ëŒ€í™” íë¦„ì„ **ë§žì¶¤í™”**í•˜ì„¸ìš”. <br>
+- ë´‡ì´ í™œì„±í™”ëœ í›„ì—ëŠ” **ì‚¬ìš©ìž ì¸í„°ëž™ì…˜** ë° **ë¶„ì„ ë°ì´í„°**ë¥¼ ì ê·¹ì ìœ¼ë¡œ ëª¨ë‹ˆí„°ë§í•˜ì„¸ìš”. <br>
+- **ì£¼ê¸°ì ì¸ ì—…ë°ì´íŠ¸**ë¥¼ í†µí•´ ì‚¬ìš©ìžë“¤ì´ ì¦ê²¨ ì‚¬ìš©í•˜ëŠ” ìœ ìš©í•˜ê³  ìž¬ë¯¸ìžˆëŠ” ë´‡ìœ¼ë¡œ ë°œì „ì‹œí‚¤ì„¸ìš”. <br>
+
+---
+
+ìœ„ ê³¼ì •ì„ ì™„ë£Œí•˜ì‹œë©´ okchat Botê³¼ Kakao i Open Builderë¥¼ ì´ìš©í•œ KakaoTalk ì±—ë´‡ êµ¬ì„±ì´ ì™„ë£Œë©ë‹ˆë‹¤. ì„±ê³µì ì¸ ì±—ë´‡ ìš´ì˜ì„ ê¸°ì›í•©ë‹ˆë‹¤! <br>
 
 </div>
 </details>
 
 <details>
-<summary>Ä«Ä«¿ÀÅå i ¿ÀÇÂ ºô´õ ¿¬µ¿ÇÏ±â(¼öÁ¤ÇÊ¿ä)</summary>
+<summary>ì¹´ì¹´ì˜¤í†¡ i ì˜¤í”ˆ ë¹Œë” ì—°ë™í•˜ê¸°(ìˆ˜ì •í•„ìš”)</summary>
 <div>
-¾Æ·¡´Â HappybotÀ» okchatÀ¸·Î ¼öÁ¤ÇÏ¿©, Kakao i Open Builder¿Í KakaoTalk Ãªº¿À» ¿¬µ¿ÇÏ´Â ¹æ¹ý¿¡ ´ëÇØ ´Ü°èº°·Î Á¤¸®ÇÑ °¡ÀÌµåÀÔ´Ï´Ù.
+ì•„ëž˜ëŠ” Happybotì„ okchatìœ¼ë¡œ ìˆ˜ì •í•˜ì—¬, Kakao i Open Builderì™€ KakaoTalk ì±—ë´‡ì„ ì—°ë™í•˜ëŠ” ë°©ë²•ì— ëŒ€í•´ ë‹¨ê³„ë³„ë¡œ ì •ë¦¬í•œ ê°€ì´ë“œìž…ë‹ˆë‹¤.
 
 ---
 
-# okchatÀ» È°¿ëÇÑ Kakao i Open Builder | KakaoTalk Chatbot ¿¬µ¿ °¡ÀÌµå
+# okchatì„ í™œìš©í•œ Kakao i Open Builder | KakaoTalk Chatbot ì—°ë™ ê°€ì´ë“œ
 
-## 1. Kakao i Open Builder ¿¬µ¿ ÁØºñ
+## 1. Kakao i Open Builder ì—°ë™ ì¤€ë¹„
 
-1. **Chatbot Manager Center** ¡æ **Settings**¿¡¼­ º¿ ID¸¦ È®ÀÎÇÕ´Ï´Ù.
-2. È®ÀÎÇÑ º¿ ID¸¦ º¹»çÇÑ µÚ, **[Integration] ¡æ [Social Media] ¡æ [KaKao] ¡æ [API Key]**·Î ÀÌµ¿ÇÏ¿©, º¹»çÇÑ º¿ ID¸¦ ºÙ¿©³Ö½À´Ï´Ù.
-3. ¿¬°á ±â´É È°¼ºÈ­¸¦ À§ÇØ ½½¶óÀÌ´õ ¹Ù¸¦ Å¬¸¯ÇÏ¿© **¿¬°á(È°¼ºÈ­)** »óÅÂ·Î ÀüÈ¯ÇÕ´Ï´Ù.
-4. ¸¸¾à **okchat È¨ÆäÀÌÁö**¿¡ ·Î±×ÀÎÇÏ¿© ¼³Á¤À» ÁøÇàÇÏ´Â °æ¿ì, **Kakao Channel Connection**(Ä«Ä«¿À Ã¤³Î ¿¬°á) Ç×¸ñ¿¡¼­ ÇØ´ç º¿ ID¸¦ ¼±ÅÃÇØ ÁÖ¼¼¿ä.
-
----
-
-## 2. Fallback ½ºÅ³ »ý¼º ¹× ¿¬°á
-
-1. \***\*[Integration] ¡æ [Social Media] ¡æ [KaKao] ¡æ [Webhook Setup]**¿¡¼­ **Webhook URL**À» º¹»çÇÕ´Ï´Ù.
-2. **Chatbot Manager Center** ¡æ **Skill** ¸Þ´º·Î ÀÌµ¿ÇÏ¿© **»õ ½ºÅ³ »ý¼º**À» Å¬¸¯ÇÕ´Ï´Ù.
-3. »õ ½ºÅ³ ÀÌ¸§À» **Fallback**À¸·Î ÁöÁ¤ÇÏ°í, ¾Õ¼­ º¹»çÇÑ **Webhook URL**À» ºÙ¿©³ÖÀº µÚ ÀúÀåÇÕ´Ï´Ù.
-4. **Chatbot Manager Center** ¡æ **Scenario** ¡æ **Fallback Block**À¸·Î ÀÌµ¿ÇÏ¿©, **[Parameter Setting]** µå·Ó´Ù¿î¿¡¼­ ¹æ±Ý ¸¸µç **Fallback** ½ºÅ³À» ¼±ÅÃÇÕ´Ï´Ù.
-5. **[Bot Response] ¡æ [Add Response]** ¿µ¿ª¿¡¼­ **Bot Response Setting**À» **Skill Data**·Î ¼³Á¤ÇÏ°í ÀúÀåÇÕ´Ï´Ù.
+1. **Chatbot Manager Center** â†’ **Settings**ì—ì„œ ë´‡ IDë¥¼ í™•ì¸í•©ë‹ˆë‹¤.
+2. í™•ì¸í•œ ë´‡ IDë¥¼ ë³µì‚¬í•œ ë’¤, **[Integration] â†’ [Social Media] â†’ [KaKao] â†’ [API Key]**ë¡œ ì´ë™í•˜ì—¬, ë³µì‚¬í•œ ë´‡ IDë¥¼ ë¶™ì—¬ë„£ìŠµë‹ˆë‹¤.
+3. ì—°ê²° ê¸°ëŠ¥ í™œì„±í™”ë¥¼ ìœ„í•´ ìŠ¬ë¼ì´ë” ë°”ë¥¼ í´ë¦­í•˜ì—¬ **ì—°ê²°(í™œì„±í™”)** ìƒíƒœë¡œ ì „í™˜í•©ë‹ˆë‹¤.
+4. ë§Œì•½ **okchat í™ˆíŽ˜ì´ì§€**ì— ë¡œê·¸ì¸í•˜ì—¬ ì„¤ì •ì„ ì§„í–‰í•˜ëŠ” ê²½ìš°, **Kakao Channel Connection**(ì¹´ì¹´ì˜¤ ì±„ë„ ì—°ê²°) í•­ëª©ì—ì„œ í•´ë‹¹ ë´‡ IDë¥¼ ì„ íƒí•´ ì£¼ì„¸ìš”.
 
 ---
 
-## 3. Chatbot Start ½ºÅ³ »ý¼º ¹× ¿¬°á
+## 2. Fallback ìŠ¤í‚¬ ìƒì„± ë° ì—°ê²°
 
-1. **Fallback ½ºÅ³**À» »ý¼ºÇß´ø ¹æ¹ý°ú µ¿ÀÏÇÏ°Ô ÁøÇàÇÏµÇ, ½ºÅ³ ÀÌ¸§À» **Chatbot Start**·Î ÁöÁ¤ÇÕ´Ï´Ù.
-2. ´Ü, Webhook URL ³¡¿¡ **/home**À» Ãß°¡ÇÏ¿© **(±âÁ¸ Webhook URL)/home** ÇüÅÂ·Î ÀÔ·ÂÇØ ÁÖ¼¼¿ä.
-3. **Chatbot Manager Center** ¡æ **Scenario**·Î ÀÌµ¿ÇÏ¿© **[+ Scenario]** ¹öÆ°À» Å¬¸¯ÇÕ´Ï´Ù.
-4. »õ ½Ã³ª¸®¿À ºí·Ï ÀÌ¸§À» **Chatbot Start**·Î ÀÔ·ÂÇÏ°í, **[Parameter Setting]** µå·Ó´Ù¿î¿¡¼­ **Chatbot Start** ½ºÅ³À» ¼±ÅÃÇÕ´Ï´Ù.
-5. **[Bot Response] ¡æ [Add Response]** ¿µ¿ª¿¡¼­ **Bot Response Setting**À» **Skill Data**·Î ¼³Á¤ÇÑ µÚ ÀúÀåÇÕ´Ï´Ù.
-
----
-
-## 4. Ä«Ä«¿À Ãªº¿ ½Ã³ª¸®¿À ¹× Chatbot Start ¹öÆ° »ý¼º
-
-1. **Chatbot Manager Center** ¡æ **Scenario** ¡æ **Scenario Settings**·Î ÀÌµ¿ÇÏ¿© **»õ·Î¿î ½Ã³ª¸®¿À**¸¦ »ý¼ºÇÕ´Ï´Ù.
-2. **[Bot Generic Menu Setting]** ±â´ÉÀ» È°¼ºÈ­ÇÏ¿© **½ÃÀÛ ¹öÆ°**(½ºÅ¸Æ® ¹öÆ°)À» »ý¼ºÇÕ´Ï´Ù.
-3. **[+Add Button]**À» Å¬¸¯ÇÏ°í ¹öÆ° ÀÌ¸§À» **Start Chatbot**À¸·Î ÁöÁ¤ÇÕ´Ï´Ù.
-4. ÇØ´ç ¹öÆ°À» **Chatbot Start** ºí·Ï°ú ¿¬°áÇÑ µÚ, ¼³Á¤À» ¿Ï·áÇÕ´Ï´Ù.
+1. \***\*[Integration] â†’ [Social Media] â†’ [KaKao] â†’ [Webhook Setup]**ì—ì„œ **Webhook URL**ì„ ë³µì‚¬í•©ë‹ˆë‹¤.
+2. **Chatbot Manager Center** â†’ **Skill** ë©”ë‰´ë¡œ ì´ë™í•˜ì—¬ **ìƒˆ ìŠ¤í‚¬ ìƒì„±**ì„ í´ë¦­í•©ë‹ˆë‹¤.
+3. ìƒˆ ìŠ¤í‚¬ ì´ë¦„ì„ **Fallback**ìœ¼ë¡œ ì§€ì •í•˜ê³ , ì•žì„œ ë³µì‚¬í•œ **Webhook URL**ì„ ë¶™ì—¬ë„£ì€ ë’¤ ì €ìž¥í•©ë‹ˆë‹¤.
+4. **Chatbot Manager Center** â†’ **Scenario** â†’ **Fallback Block**ìœ¼ë¡œ ì´ë™í•˜ì—¬, **[Parameter Setting]** ë“œë¡­ë‹¤ìš´ì—ì„œ ë°©ê¸ˆ ë§Œë“  **Fallback** ìŠ¤í‚¬ì„ ì„ íƒí•©ë‹ˆë‹¤.
+5. **[Bot Response] â†’ [Add Response]** ì˜ì—­ì—ì„œ **Bot Response Setting**ì„ **Skill Data**ë¡œ ì„¤ì •í•˜ê³  ì €ìž¥í•©ë‹ˆë‹¤.
 
 ---
 
-## 5. Ãªº¿ ¹èÆ÷
+## 3. Chatbot Start ìŠ¤í‚¬ ìƒì„± ë° ì—°ê²°
 
-1. **Chatbot Manager Center** ¡æ **Deploy** ¸Þ´º·Î ÀÌµ¿ÇÏ¿© **¹èÆ÷(Deploy)** ¹öÆ°À» Å¬¸¯ÇÕ´Ï´Ù.
-2. À§ °úÁ¤ÀÌ ¿Ï·áµÇ¸é, **Kakao i Open Builder**¿Í **KakaoTalk Ãªº¿**ÀÌ Á¤»óÀûÀ¸·Î ¿¬µ¿µÇ¾î ¿øÈ°ÇÏ°Ô µ¿ÀÛÇÒ °ÍÀÔ´Ï´Ù.
+1. **Fallback ìŠ¤í‚¬**ì„ ìƒì„±í–ˆë˜ ë°©ë²•ê³¼ ë™ì¼í•˜ê²Œ ì§„í–‰í•˜ë˜, ìŠ¤í‚¬ ì´ë¦„ì„ **Chatbot Start**ë¡œ ì§€ì •í•©ë‹ˆë‹¤.
+2. ë‹¨, Webhook URL ëì— **/home**ì„ ì¶”ê°€í•˜ì—¬ **(ê¸°ì¡´ Webhook URL)/home** í˜•íƒœë¡œ ìž…ë ¥í•´ ì£¼ì„¸ìš”.
+3. **Chatbot Manager Center** â†’ **Scenario**ë¡œ ì´ë™í•˜ì—¬ **[+ Scenario]** ë²„íŠ¼ì„ í´ë¦­í•©ë‹ˆë‹¤.
+4. ìƒˆ ì‹œë‚˜ë¦¬ì˜¤ ë¸”ë¡ ì´ë¦„ì„ **Chatbot Start**ë¡œ ìž…ë ¥í•˜ê³ , **[Parameter Setting]** ë“œë¡­ë‹¤ìš´ì—ì„œ **Chatbot Start** ìŠ¤í‚¬ì„ ì„ íƒí•©ë‹ˆë‹¤.
+5. **[Bot Response] â†’ [Add Response]** ì˜ì—­ì—ì„œ **Bot Response Setting**ì„ **Skill Data**ë¡œ ì„¤ì •í•œ ë’¤ ì €ìž¥í•©ë‹ˆë‹¤.
 
 ---
 
-ÀÌ °úÁ¤À» ¸ðµÎ ¸¶Ä¡¸é, okchatÀ» ÅëÇØ Kakao i Open Builder°¡ ¿¬°áµÇ¾î KakaoTalk Ã¤³Î¿¡¼­ Ãªº¿À» »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù. ÇÊ¿äÇÑ °æ¿ì ½Ã³ª¸®¿À¸¦ Ãß°¡ÇÏ°Å³ª, ´äº¯ ½ºÅ³À» º¸°­ÇØ ´õ¿í Ç³ºÎÇÑ »ç¿ëÀÚ °æÇèÀ» Á¦°øÇØ º¸¼¼¿ä.
+## 4. ì¹´ì¹´ì˜¤ ì±—ë´‡ ì‹œë‚˜ë¦¬ì˜¤ ë° Chatbot Start ë²„íŠ¼ ìƒì„±
+
+1. **Chatbot Manager Center** â†’ **Scenario** â†’ **Scenario Settings**ë¡œ ì´ë™í•˜ì—¬ **ìƒˆë¡œìš´ ì‹œë‚˜ë¦¬ì˜¤**ë¥¼ ìƒì„±í•©ë‹ˆë‹¤.
+2. **[Bot Generic Menu Setting]** ê¸°ëŠ¥ì„ í™œì„±í™”í•˜ì—¬ **ì‹œìž‘ ë²„íŠ¼**(ìŠ¤íƒ€íŠ¸ ë²„íŠ¼)ì„ ìƒì„±í•©ë‹ˆë‹¤.
+3. **[+Add Button]**ì„ í´ë¦­í•˜ê³  ë²„íŠ¼ ì´ë¦„ì„ **Start Chatbot**ìœ¼ë¡œ ì§€ì •í•©ë‹ˆë‹¤.
+4. í•´ë‹¹ ë²„íŠ¼ì„ **Chatbot Start** ë¸”ë¡ê³¼ ì—°ê²°í•œ ë’¤, ì„¤ì •ì„ ì™„ë£Œí•©ë‹ˆë‹¤.
+
+---
+
+## 5. ì±—ë´‡ ë°°í¬
+
+1. **Chatbot Manager Center** â†’ **Deploy** ë©”ë‰´ë¡œ ì´ë™í•˜ì—¬ **ë°°í¬(Deploy)** ë²„íŠ¼ì„ í´ë¦­í•©ë‹ˆë‹¤.
+2. ìœ„ ê³¼ì •ì´ ì™„ë£Œë˜ë©´, **Kakao i Open Builder**ì™€ **KakaoTalk ì±—ë´‡**ì´ ì •ìƒì ìœ¼ë¡œ ì—°ë™ë˜ì–´ ì›í™œí•˜ê²Œ ë™ìž‘í•  ê²ƒìž…ë‹ˆë‹¤.
+
+---
+
+ì´ ê³¼ì •ì„ ëª¨ë‘ ë§ˆì¹˜ë©´, okchatì„ í†µí•´ Kakao i Open Builderê°€ ì—°ê²°ë˜ì–´ KakaoTalk ì±„ë„ì—ì„œ ì±—ë´‡ì„ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤. í•„ìš”í•œ ê²½ìš° ì‹œë‚˜ë¦¬ì˜¤ë¥¼ ì¶”ê°€í•˜ê±°ë‚˜, ë‹µë³€ ìŠ¤í‚¬ì„ ë³´ê°•í•´ ë”ìš± í’ë¶€í•œ ì‚¬ìš©ìž ê²½í—˜ì„ ì œê³µí•´ ë³´ì„¸ìš”.
 
 </div>
 </details>
 
 <details>
-<summary>°ø½Ä Ä«Ä«¿À ¸®¼Ò½º</summary>
+<summary>ê³µì‹ ì¹´ì¹´ì˜¤ ë¦¬ì†ŒìŠ¤</summary>
 <div>
-- Ä«Ä«¿ÀÅå Ã¤³Î °ü¸®ÀÚ ¼¾ÅÍ: https://business.kakao.com/info/kakaotalkchannel/ <br>
-- Ä«Ä«¿À i ¿ÀÇÂºô´õ:  https://accounts.kakao.com/login/?continue=https://i.kakao.com/#login<br>
-- Ä«Ä«¿À °³¹ßÀÚ: https://developers.kakao.com/ <br>
+- ì¹´ì¹´ì˜¤í†¡ ì±„ë„ ê´€ë¦¬ìž ì„¼í„°: https://business.kakao.com/info/kakaotalkchannel/ <br>
+- ì¹´ì¹´ì˜¤ i ì˜¤í”ˆë¹Œë”:  https://accounts.kakao.com/login/?continue=https://i.kakao.com/#login<br>
+- ì¹´ì¹´ì˜¤ ê°œë°œìž: https://developers.kakao.com/ <br>
 </div>
 </details>
 
 </div>
 </details>
 
-> ÀÌ¿Ü¿¡µµ ´ÙÀ½°ú °°Àº ¼Ò¼È ¹Ìµð¾î¿¡ ¿¬µ¿À» Áö¿øÇÏ°í ÀÖ½À´Ï´Ù.
+> ì´ì™¸ì—ë„ ë‹¤ìŒê³¼ ê°™ì€ ì†Œì…œ ë¯¸ë””ì–´ì— ì—°ë™ì„ ì§€ì›í•˜ê³  ìžˆìŠµë‹ˆë‹¤.
 >
-> - ³×ÀÌ¹ö ÅåÅå
+> - ë„¤ì´ë²„ í†¡í†¡
 > - Facebook Messenger
 > - Instargram
 > - WhatsApp
 
 <img src="">
 
-## ? ¸ð´ÏÅÍ¸µ ¹× °ü¸®
+## ðŸ“Š ëª¨ë‹ˆí„°ë§ ë° ê´€ë¦¬
 
-### ´ë½Ãº¸µå
+### ëŒ€ì‹œë³´ë“œ
 
-- okchat ´ë½Ãº¸µå¿¡ Á¢¼ÓÇÏ¿© ÁÖ¿ä ÁöÇ¥¸¦ ¸ð´ÏÅÍ¸µÇÏ¼¼¿ä:
-  - »ý¼ºµÈ ÃÑ Ãªº¿ ¼ö.
-  - Àü¼ÛµÈ Ãªº¿ ¸Þ½ÃÁö ¼ö.
-  - Ãªº¿ ÅëÇÕ ÇÁ·ÎÁ§Æ® ¼ö.
-  - »ç¿ëÀÚ ÇÁ·ÎÇÊ.
+- okchat ëŒ€ì‹œë³´ë“œì— ì ‘ì†í•˜ì—¬ ì£¼ìš” ì§€í‘œë¥¼ ëª¨ë‹ˆí„°ë§í•˜ì„¸ìš”:
+  - ìƒì„±ëœ ì´ ì±—ë´‡ ìˆ˜.
+  - ì „ì†¡ëœ ì±—ë´‡ ë©”ì‹œì§€ ìˆ˜.
+  - ì±—ë´‡ í†µí•© í”„ë¡œì íŠ¸ ìˆ˜.
+  - ì‚¬ìš©ìž í”„ë¡œí•„.
 
-### ´ëÈ­ ±â·Ï
+### ëŒ€í™” ê¸°ë¡
 
-- °ú°Å Ãªº¿ ´ëÈ­¸¦ º¸°í ºÐ¼®ÇÏ¿© °³¼±ÇÒ ¿µ¿ªÀ» ÆÄ¾ÇÇÏ¼¼¿ä.
+- ê³¼ê±° ì±—ë´‡ ëŒ€í™”ë¥¼ ë³´ê³  ë¶„ì„í•˜ì—¬ ê°œì„ í•  ì˜ì—­ì„ íŒŒì•…í•˜ì„¸ìš”.
 
-## ? ±¸µ¶ ÇÃ·£
+## ðŸ’° êµ¬ë… í”Œëžœ
 
-### ¹«·á ÇÃ·£
+### ë¬´ë£Œ í”Œëžœ
 
-- 1°³ÀÇ Ãªº¿ »ý¼º.
-- ¿ù 1,000 Å©·¹µ÷.
-- ±âº» ±â´É: °³¿ä ´ë½Ãº¸µå, ´ëÈ­ µ¥¸ð È­¸é, ´ëÈ­ ±â·Ï, Ãªº¿ À§Á¬, ÀÏ¹Ý ¼³Á¤.
+- 1ê°œì˜ ì±—ë´‡ ìƒì„±.
+- ì›” 1,000 í¬ë ˆë”§.
+- ê¸°ë³¸ ê¸°ëŠ¥: ê°œìš” ëŒ€ì‹œë³´ë“œ, ëŒ€í™” ë°ëª¨ í™”ë©´, ëŒ€í™” ê¸°ë¡, ì±—ë´‡ ìœ„ì ¯, ì¼ë°˜ ì„¤ì •.
 
-### ½ºÅ¸ÅÍ ÇÃ·£: ¿ù 99,000¿ø
+### ìŠ¤íƒ€í„° í”Œëžœ: ì›” 99,000ì›
 
-- ÃÖ´ë 5°³ÀÇ Ãªº¿ »ý¼º.
-- ¿ù 10,000 Å©·¹µ÷.
-- Áö½Ä º£ÀÌ½º ±â´É ¾×¼¼½º (ÅØ½ºÆ® ÀÔ·Â, ÆÄÀÏ ¾÷·Îµå, À¥ Å©·Ñ·¯).
-- ¿ÜºÎ API ÅëÇÕ µµ±¸.
-- ÃÖ´ë 2°³ÀÇ ¼Ò¼È ¹Ìµð¾î ÇÃ·§Æû ¿¬°á.
+- ìµœëŒ€ 5ê°œì˜ ì±—ë´‡ ìƒì„±.
+- ì›” 10,000 í¬ë ˆë”§.
+- ì§€ì‹ ë² ì´ìŠ¤ ê¸°ëŠ¥ ì•¡ì„¸ìŠ¤ (í…ìŠ¤íŠ¸ ìž…ë ¥, íŒŒì¼ ì—…ë¡œë“œ, ì›¹ í¬ë¡¤ëŸ¬).
+- ì™¸ë¶€ API í†µí•© ë„êµ¬.
+- ìµœëŒ€ 2ê°œì˜ ì†Œì…œ ë¯¸ë””ì–´ í”Œëž«í¼ ì—°ê²°.
 
-### ÇÁ·ÎÆä¼Å³Î ÇÃ·£: ¿ù 499,000¿ø
+### í”„ë¡œíŽ˜ì…”ë„ í”Œëžœ: ì›” 499,000ì›
 
-- ¹«Á¦ÇÑ Ãªº¿ »ý¼º.
-- ¿ù 60,000 Å©·¹µ÷.
-- ½ºÅ¸ÅÍ ÇÃ·£ÀÇ ¸ðµç ±â´É.
-- Ã¤ÆÃ ±â·Ï ³»º¸³»±â.
-- ¸¶ÄÉÆÃ ¸®µå Ä¸Ã³ ¹× ³»º¸³»±â.
-- Áö½Ä º£ÀÌ½º ³»º¸³»±â.
-- ÆÀ¿ø ÃÊ´ë (ÃÖ´ë 3¸í).
+- ë¬´ì œí•œ ì±—ë´‡ ìƒì„±.
+- ì›” 60,000 í¬ë ˆë”§.
+- ìŠ¤íƒ€í„° í”Œëžœì˜ ëª¨ë“  ê¸°ëŠ¥.
+- ì±„íŒ… ê¸°ë¡ ë‚´ë³´ë‚´ê¸°.
+- ë§ˆì¼€íŒ… ë¦¬ë“œ ìº¡ì²˜ ë° ë‚´ë³´ë‚´ê¸°.
+- ì§€ì‹ ë² ì´ìŠ¤ ë‚´ë³´ë‚´ê¸°.
+- íŒ€ì› ì´ˆëŒ€ (ìµœëŒ€ 3ëª…).
 
-## ?? ¸ÂÃãÇü Ãªº¿ °³¹ß
+## ðŸ› ï¸ ë§žì¶¤í˜• ì±—ë´‡ ê°œë°œ
 
-### ¸ÂÃãÇü ¼Ö·ç¼Ç
+### ë§žì¶¤í˜• ì†”ë£¨ì…˜
 
-okchatÀº Æ¯Á¤ ºñÁî´Ï½º ¿ä±¸ »çÇ×¿¡ ¸Â´Â ¸ÂÃãÇü Ãªº¿ °³¹ß ¼­ºñ½º¸¦ Á¦°øÇÕ´Ï´Ù.
+okchatì€ íŠ¹ì • ë¹„ì¦ˆë‹ˆìŠ¤ ìš”êµ¬ ì‚¬í•­ì— ë§žëŠ” ë§žì¶¤í˜• ì±—ë´‡ ê°œë°œ ì„œë¹„ìŠ¤ë¥¼ ì œê³µí•©ë‹ˆë‹¤.
 
-### Àü´ã Áö¿ø
+### ì „ë‹´ ì§€ì›
 
-Àü¹® ÇÁ·ÒÇÁÆ® ¿£Áö´Ï¾î°¡ ÀüÃ¼ °³¹ß °úÁ¤À» ¾È³»ÇÕ´Ï´Ù.
+ì „ë¬¸ í”„ë¡¬í”„íŠ¸ ì—”ì§€ë‹ˆì–´ê°€ ì „ì²´ ê°œë°œ ê³¼ì •ì„ ì•ˆë‚´í•©ë‹ˆë‹¤.
 
-### À¯Áöº¸¼ö °è¾à
+### ìœ ì§€ë³´ìˆ˜ ê³„ì•½
 
-Áö¼ÓÀûÀÎ À¯Áöº¸¼ö¸¦ ÅëÇØ Ãªº¿ÀÌ ÃÖ½Å »óÅÂ¸¦ À¯ÁöÇÏ°í ±â´ÉÀ» ¹ßÈÖÇÏµµ·Ï º¸ÀåÇÕ´Ï´Ù.
+ì§€ì†ì ì¸ ìœ ì§€ë³´ìˆ˜ë¥¼ í†µí•´ ì±—ë´‡ì´ ìµœì‹  ìƒíƒœë¥¼ ìœ ì§€í•˜ê³  ê¸°ëŠ¥ì„ ë°œíœ˜í•˜ë„ë¡ ë³´ìž¥í•©ë‹ˆë‹¤.
 
-### °³¹ß ºñ¿ë
+### ê°œë°œ ë¹„ìš©
 
-- ÇÁ·ÒÇÁÆ® ¿£Áö´Ï¾î Ãªº¿ »ý¼º (1°³¿ù): 5,500,000¿ø
-- ¼­ºñ½º ÅëÇÕ °³¹ß (1°³¿ù): 11,000,000¿ø
-- ±âÁ¸ Ãªº¿ ¼­ºñ½º ¼öÁ¤ (1°³¿ù): 5,500,000¿ø
+- í”„ë¡¬í”„íŠ¸ ì—”ì§€ë‹ˆì–´ ì±—ë´‡ ìƒì„± (1ê°œì›”): 5,500,000ì›
+- ì„œë¹„ìŠ¤ í†µí•© ê°œë°œ (1ê°œì›”): 11,000,000ì›
+- ê¸°ì¡´ ì±—ë´‡ ì„œë¹„ìŠ¤ ìˆ˜ì • (1ê°œì›”): 5,500,000ì›
 
-### À¯Áöº¸¼ö ºñ¿ë
+### ìœ ì§€ë³´ìˆ˜ ë¹„ìš©
 
 -
 
-### Á¤º¸ ¹× ¿¬¶ôÃ³
+### ì •ë³´ ë° ì—°ë½ì²˜
 
-- ´Ù¼Ø¿¢½º È¨ÆäÀÌÁö: https://www.dasomx.com/about-us
-- Okchat ver 2.0 È¨ÆäÀÌÁö:https://v2.okchat.ai/dashboard
+- ë‹¤ì†œì—‘ìŠ¤ í™ˆíŽ˜ì´ì§€: https://www.dasomx.com/about-us
+- Okchat ver 2.0 í™ˆíŽ˜ì´ì§€:https://v2.okchat.ai/dashboard
 
-### ¹®ÀÇ Á¤º¸
+### ë¬¸ì˜ ì •ë³´
 
 - email. info@dasomx.com
 - tel. 070-4113-7111
